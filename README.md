@@ -1,4 +1,6 @@
 ## Mustache.ts
+![badge](https://github.com/fabrv/mustache.ts/workflows/Tests/badge.svg)
+  
 A Typescript Deno-first refactoring of [mustache.js](https://github.com/janl/mustache.js).
 
 ## Usage
