@@ -6,7 +6,7 @@ A Typescript Deno-first refactoring of [mustache.js](https://github.com/janl/mus
 ## Usage
 ### Basic usage
 ```typescript
-import { render } from './mustache.ts';
+import { render } from 'https://deno.land/x/mustache_ts/mustache.ts';
 
 const template = '{{title}} spends {{calc}}'
 const view = {
@@ -22,7 +22,7 @@ const output = render(template, view)
 <b>{{title}}</b> spends <i>{{calc}}</i>
 ```
 ```typescript
-import { renderFile } from './mustache.ts';
+import { renderFile } from 'https://deno.land/x/mustache_ts/mustache.ts';
 
 const view = {
   title: 'Joe',
@@ -34,7 +34,7 @@ const output = await renderFile('./template.html', view)
 ### With Alosaur
 
 ```typescript
-import { renderFile } from './mustache.ts';
+import { renderFile } from 'https://deno.land/x/mustache_ts/mustache.ts';
 
 app.useViewRender({
   type: 'mustache',
