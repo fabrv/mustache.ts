@@ -1,5 +1,5 @@
 ## Mustache.ts
-A Typescript Deno-first refactoring of [mustache.js@4.1.0](https://github.com/janl/mustache.js).
+A Typescript Deno-first refactoring of [mustache.js](https://github.com/janl/mustache.js).
 
 ## Usage
 ### Basic usage
@@ -42,3 +42,7 @@ app.useViewRender({
 });
 ```
 
+## Credits
+- Author, Fabrizio Delcompare [@fabrv](https://github.com/fabrv)
+- Tests and Github Workflow, Rustam [@irustm](https://github.com/irustm)
+- Original project, [Mustache.js](https://github.com/janl/mustache.js)
